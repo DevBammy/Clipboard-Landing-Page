@@ -1,0 +1,495 @@
+:root{
+    /* Colors-Primary */
+
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    
+    /* Neutral */
+    
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 1.5;
+    font-family: Bai Jamjuree; 
+}
+
+/* header */
+#showcase{
+    background-image: url(/images/bg-header-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;overflow-y: hidden;
+}
+#showcase .container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30vh;
+}
+#showcase h1{
+    font-size: 64px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 500;
+}
+#showcase p{
+    font-size: 30px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 26px;
+}
+#showcase a{
+    margin: 0 30px;
+}
+
+/* Section Two */
+.two{
+    width: 100%;
+    height: 30vh;
+}
+.two .container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.two h2{
+    font-size: 44px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 500;
+}
+.two p{
+    font-size: 30px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 26px;
+}
+/* Three */
+.three{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.three .container{
+    margin-top: 20vh;
+}
+.three .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three .col{
+    flex-basis: 50%;
+}
+.three .col img{
+    width: 100%;
+    margin-left: -30px;
+}
+
+.three .col h3{
+    font-size: 24px;
+    color: var(--Dark-Grayish-Blue);
+}
+.three .col p{
+    font-size: 18px;
+    width: 60%;
+    color: var(--Grayish-Blue);
+}
+.three .col-text{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+/* Four */
+.four{
+    width: 100%;
+    height: 40vh;
+}
+.four .container{
+    width: 70%;
+    margin: 10vh auto;    
+    text-align: center;
+}
+.four h2{
+    font-size: 44px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 500;
+}
+.four p{
+    font-size: 30px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 26px;
+}
+/* Five */
+.five{
+    width: 100%;
+    height: 90vh;
+}
+.five .container{
+    width: 70%;
+    margin: auto;
+}
+.five .container img{
+    width: 100%;
+}
+/* Six */
+.six{
+    width: 100%;
+    height: 40vh;
+}
+.six .container{
+    width: 80%;
+    margin: 3vh auto;    
+    text-align: center;
+}
+.six h2{
+    font-size: 44px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 500;
+}
+.six p{
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+.six .row{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    margin: 50px auto;
+}
+.six .col{
+    flex-basis: 33%;
+    padding: 0 20px;
+}
+.six .col h3{
+    font-size: 22px;
+    color: var(--Dark-Grayish-Blue);
+}
+/* Seven */
+.seven{
+    width: 100%;
+    height: 30vh;
+}
+.seven .container{
+    width: 70%;
+    margin: auto ;
+    overflow: hidden;
+}
+.seven .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+.seven .col{
+    flex-basis: 20%;
+    margin: 0 10px;
+}
+/* Eight */
+.eight{
+    width: 100%;
+    height: 20vh;
+}
+.eight .container{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+.eight h3{
+    font-size: 28px;
+    color: var(--Dark-Grayish-Blue);
+}
+.eight p{
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 26px;
+}
+.eight a{
+    margin: 0 20px;
+}
+/* Nine */
+.nine{
+    width: 100%;
+    height: 20vh;
+    background-color: lightslategrey;
+    margin-top: 40px;
+}
+.nine .container{
+    width: 90%;
+    margin:auto;
+}
+.nine .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: left;
+}
+.nine .col{
+    flex: 25%;
+    padding: 20px;
+}
+.nine .col img{
+    width: 90px;
+    cursor: pointer;
+}
+.nine .col ul li{
+    margin: 15px 0;
+}
+.nine .col ul li a:hover{
+    color: var(--Grayish-Blue);
+}
+.fa-facebook{
+    color: white;
+    margin-right: 5px;
+    transition: .5s;
+}
+.fa-twitter{
+    color: white;
+    margin-right: 5px;
+    transition: .5s;
+}
+.fa-instagram{
+    color: white;
+    margin-right: 5px;
+    transition: .5s;
+}
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
+    transform: rotate(360deg);
+}
+
+
+/* Utilities */
+
+.btn-left{
+    background-color: var(--Strong-Cyan);
+    padding: 15px 35px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: .3s;
+}
+.btn-right{
+    background-color: var(--Light-Blue);
+    padding: 15px 35px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: .3s;
+}
+.btn-left:hover, .btn-right:hover{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.attribution{ 
+    font-size: 16px; 
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+@media (max-width:376px){
+    #showcase .container{
+        margin-top: 20vh;
+    }
+    #showcase h1{
+        font-size: 26px;
+    }
+    #showcase p{
+        font-size: 16px;
+    }
+    #showcase .button{
+        display: flex;
+        flex-direction: column;
+    }
+    #showcase a{
+        padding: 5px 15px;
+        margin: 10px 0;
+    }
+    /* Section Two */
+    .two h2{
+        font-size: 22px;
+    }
+    .two p{
+        font-size: 16px;
+    }
+    /* Three */
+    .three .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .three .container{
+        margin-top: 10vh;
+    }
+    .three .col{
+        flex-basis: 100%;
+    }
+    .three .col img{
+        width: 70%;
+        margin:auto;
+    }
+    
+    .three .col h3{
+        font-size: 19px;
+    }
+    .three .col p{
+        font-size: 16px;
+        width: 80%;
+        margin: auto;
+    }
+    .three .col-text{
+        margin:20px auto;
+        margin-bottom: 30px;
+    }
+    /* Four */
+    .four{
+        height: 20vh;
+    }
+    .four h2{
+        font-size: 22px;
+    }
+    .four p{
+        font-size: 16px;
+    }
+    .five{
+        height: 10vh;
+    }
+    .five .container{
+        margin-top: 40px;
+    }
+    /* six */
+    .six .container{
+        width: 80%;    
+        height: 30vh;
+        text-align: center;
+        margin-top: 20vh;
+    }
+    .six h2{
+        font-size: 22px;
+    }
+    .six p{
+        font-size: 16px;
+    }
+    .six .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .six .col{  
+        margin: 20px auto;
+    }
+    .six .col h3{
+        font-size: 14px;
+    }
+   /* Seven */
+    .seven{
+        width: 100%;
+        height: 30vh;
+    }
+    .seven .container{
+        width: 100%;
+    }
+    .seven .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 55vh;
+    }
+    .seven .col{
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+    /* Eight */
+    .eight{
+        width: 100%;
+        height: 20vh;
+    }
+    .eight .container{
+        width: 70%;
+        margin: 90vh  auto;
+        text-align: center;
+    }
+    .eight h3{
+        font-size: 24px;
+    }
+    .eight p{
+        font-size: 16px;
+    }
+   
+    .eight .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .eight a{
+        padding: 5px 15px;
+        margin: 10px 0;
+    }
+    /* Nine */
+    .nine{
+        width: 100%;
+        height: 90vh;
+        background-color: lightslategrey;
+        margin-top: 40px;
+    }
+    .nine .container{
+        width: 40%;
+        margin:180px auto;
+
+    }
+    .nine .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .nine .col{
+        flex: 100%;
+        /* margin: -20px auto; */
+    }
+    .nine .col img{
+        width: 90px;
+        cursor: pointer;
+    }
+    .nine .col ul{
+        display: block;
+    }
+    .nine .col ul li a:hover{
+        color: var(--Grayish-Blue);
+    }
+    .fa-facebook{
+        color: white;
+        margin-right: 10px;
+        transition: .5s;
+    }
+    .fa-twitter{
+        color: white;
+        margin-right: 10px;
+        transition: .5s;
+    }
+    .fa-instagram{
+        color: white;
+        margin-right: 10px;
+        transition: .5s;
+    }
+    .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
+        transform: rotate(360deg);
+    }
+}
